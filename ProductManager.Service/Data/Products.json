@@ -1,0 +1,62 @@
+[
+  {
+    "ID": 1000,
+    "Name": "Apple",
+    "Price": ".50",
+    "Quantity": 500
+  },
+  {
+    "ID": 1100,
+    "Name": "Banana",
+    "Price": ".40",
+    "Quantity": 300
+  },
+  {
+    "ID": 1200,
+    "Name": "Cherry",
+    "Price": ".20",
+    "Quantity": 700
+  },
+  {
+    "ID": 1300,
+    "Name": "Kiwi",
+    "Price": "1.00",
+    "Quantity": 200
+  },
+  {
+    "ID": 1400,
+    "Name": "Plantain",
+    "Price": ".70",
+    "Quantity": 250
+  },
+  {
+    "ID": 1500,
+    "Name": "Orange",
+    "Price": ".60",
+    "Quantity": 1000
+  },
+  {
+    "ID": 1600,
+    "Name": "Dragonfruit",
+    "Price": ".40",
+    "Quantity": 500
+  },
+  {
+    "ID": 1700,
+    "Name": "Tangerine",
+    "Price": ".65",
+    "Quantity": 320
+  },
+  {
+    "ID": 1800,
+    "Name": "Peach",
+    "Price": ".35",
+    "Quantity": 250
+  },
+  {
+    "ID": 1900,
+    "Name": "Strawberry",
+    "Price": ".30",
+    "Quantity": 200
+  }
+]

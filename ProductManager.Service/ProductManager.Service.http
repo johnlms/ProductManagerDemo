@@ -1,0 +1,48 @@
+@ProductManager_HostAddress = http://localhost:5079
+@id1 = 1000
+@id2 = 2000
+
+
+GET {{ProductManager_HostAddress}}/api/products
+Accept: application/json
+
+###
+
+GET {{ProductManager_HostAddress}}/api/products/{{id1}}
+Accept: application/json
+
+###
+
+POST {{ProductManager_HostAddress}}/api/products
+Accept: application/json
+Content-Type: application/json
+{
+  "ID": {{id2}},
+  "Name": "Grapes",
+  "Price": ".45",
+  "Quantity": "420"
+}
+
+###
+
+GET {{ProductManager_HostAddress}}/api/products/{{id2}}
+Accept: application/json
+
+###
+
+PUT {{ProductManager_HostAddress}}/api/products/{{id2}}
+Accept: application/json
+Content-Type: application/json
+{
+  "ID": {{id2}},
+  "Name": "Grapes",
+  "Price": ".55",
+  "Quantity": "400"
+}
+
+###
+
+DELETE {{ProductManager_HostAddress}}/api/products/{{id2}}
+Accept: application/json
+
+###
